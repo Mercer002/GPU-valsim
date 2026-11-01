@@ -1,0 +1,27 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Pytest / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+results.xml
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ephemeral runtime logs
+*.log
+/tmp/
